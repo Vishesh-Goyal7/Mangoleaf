@@ -6,7 +6,7 @@ from sklearn.metrics import *
 # Step 1: Define the path to your dataset
 path = Path('/Users/visheshgoyal/Python Projects/Leaf Project/MangoLeafDBAryaShah')
 
-# # Check if the path exists
+# Check if the path exists
 # if not path.exists():
 #     print(f"Error: The path {path} does not exist.")
 # else:
@@ -32,10 +32,10 @@ dls = ImageDataLoaders.from_folder(
 
 # # Step 6: Save the model
 # # learn.save('efficientnet-model')
-# learn.export('/Users/visheshgoyal/Python Projects/Leaf Project/Model4/Trained Model/EfficentNetFinal.pkl')
+# learn.export('/Users/visheshgoyal/Python Projects/Leaf Project/Mangoleaf/Model4/Trained Model/EfficentNetFinal.pkl')
 
 # Step 7: Import the model
-learn = load_learner('/Users/visheshgoyal/Python Projects/Leaf Project/Model4/Trained Model/EfficentNetFinal.pkl')
+learn = load_learner('//Users/visheshgoyal/Python Projects/Leaf Project/Mangoleaf/Model4/Trained Model/EfficentNetFinal.pkl')
 
 # # Step 8: Load a new image and predict its class
 # path = '/Users/visheshgoyal/Downloads/Unknown.jpeg'
