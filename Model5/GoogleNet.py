@@ -36,13 +36,13 @@ if learn is None:
 learn.fine_tune(5)
 
 # Optional: Export the learner for inference later
-learn.export('/Users/visheshgoyal/Python Projects/Leaf Project/Model5/Trained Model/GoogleNetFinal.pkl')
+learn.export('/Users/visheshgoyal/Python Projects/Leaf Project/Mangoleaf/Model5/Trained Model/GoogleNetFinal.pkl')
 
 # Display sample predictions
 learn.show_results()
 
 # # Load Model
-# googleNetModel = load_learner('/Users/visheshgoyal/Python Projects/Leaf Project/Model5/Trained Model/GoogleNetFinal.pkl')
+# googleNetModel = load_learner('/Users/visheshgoyal/Python Projects/Leaf Project/Mangoleaf/Model5/Trained Model/GoogleNetFinal.pkl')
 
 # # Load image and test
 # img = PILImage.create('')

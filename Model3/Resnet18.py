@@ -20,7 +20,7 @@ dls = ImageDataLoaders.from_folder(
 # learn.fine_tune(5)
 
 # # Export the learner for inference later
-export_path = Path('/Users/visheshgoyal/Python Projects/Leaf Project/Model3/Trained Model/Resnet18Final.pkl')
+export_path = Path('//Users/visheshgoyal/Python Projects/Leaf Project/Mangoleaf/Model3/Trained Model/Resnet18Final.pkl')
 # learn.export(export_path)
 
 # Load the exported learner
